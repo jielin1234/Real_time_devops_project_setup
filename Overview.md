@@ -31,3 +31,4 @@ Process:
 	- Can find the dockerfile in Jenkins server /var/lib/jenkins/workspace/<pipeline name>
 -  Configure [webhook] so that it will auto build the pipeline when there is git commit 
 
+[[testing]]
