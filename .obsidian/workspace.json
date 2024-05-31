@@ -9,18 +9,6 @@
         "dimension": 74.35897435897436,
         "children": [
           {
-            "id": "acc0e1d397f4b3b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "886e2529c71f2b17",
             "type": "leaf",
             "state": {
@@ -31,21 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "90d243e605ba7d8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c85f58e2943cfeac",
@@ -187,13 +162,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90d243e605ba7d8a",
+  "active": "886e2529c71f2b17",
   "lastOpenFiles": [
-    "Account details.md",
-    "Untitled.md",
+    "Installation of the tools.md",
     "Overview.md",
-    "Pasted image 20240531121311.png",
+    "Untitled.md",
     "test.md",
-    "Installation of the tools.md"
+    "Account details.md",
+    "Pasted image 20240531121311.png"
   ]
 }
