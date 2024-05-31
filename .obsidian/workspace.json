@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Overview.md"
+              }
             }
           }
         ]
@@ -171,12 +175,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed18dcc5ce8bc065",
+  "active": "886e2529c71f2b17",
   "lastOpenFiles": [
-    "test.md",
-    "Overview.md",
     "Account details.md",
-    "Installation of the tools.md",
-    "Pasted image 20240531121311.png"
+    "Overview.md",
+    "Pasted image 20240531121311.png",
+    "test.md",
+    "Installation of the tools.md"
   ]
 }
