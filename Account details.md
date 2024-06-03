@@ -5,7 +5,7 @@ pw: lily<name>1234@
 	
   IAM:
 username: Jelly
-lily<name>1234@
+Lily<name>1234@
 
 Github:
 jielin1234
