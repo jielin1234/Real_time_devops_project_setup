@@ -28,5 +28,6 @@ Process:
 ![[Pasted image 20240531121311.png]]
 - write the docker file and commit to Github
 - Jenkins to pick up the code and start building it
-	- Can find the dockerfile in Jenkins server /var/lib/jenkins/workspace/<pipeline name>
--  Configure [webhook] so that it will auto build the pipeline when there is git commit 
+	- Can find the dockerfile in Jenkins server /var/lib/jenkins/workspace/ (pipeline name)
+- Configure [[webhook]] so that it will auto build the pipeline when there is git commit 
+-
