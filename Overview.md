@@ -26,8 +26,12 @@ Process:
 
 2.Docker file, Git commit and trigger jenkins job using webhook
 ![[Pasted image 20240531121311.png]]
-- write the docker file and commit to Github
+- write the Docker file and commit to Github
 - Jenkins to pick up the code and start building it
-	- Can find the dockerfile in Jenkins server /var/lib/jenkins/workspace/ (pipeline name)
+	- Can find the Docker file in Jenkins server /var/lib/jenkins/workspace/ (pipeline name)
 - Configure [[webhook]] so that it will auto build the pipeline when there is git commit 
--
+
+3.Sending the Docker file to Ansible server and build the image
+![](WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa%202.png)
+
+
