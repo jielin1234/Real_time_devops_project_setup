@@ -39,4 +39,5 @@ Process:
 ![](WeChatWorkScreenshot_679e5e37-887d-4822-a0b4-36ce27cd63c6.png)
 
 4.Build & tagging docker images
-Build the image based on the docker file and Ansible will tag the images
+![](WeChatWorkScreenshot_c55331e8-7cd6-4e20-9ae2-b1d0ce6465e5.png)
+Ansible will build the image based on the docker file and will tag the images along to maintain the version.
