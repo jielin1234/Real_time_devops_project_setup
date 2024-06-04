@@ -1,7 +1,7 @@
 AWS account:
 590184015637
 username: jellylow1234@gmail.com
-pw: lily<name>1234@
+pw: Lily<name>1234@
 	
   IAM:
 username: Jelly

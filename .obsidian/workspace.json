@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Account details.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Account details.md",
+                "file": "Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Account details.md",
+                "file": "Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Account details.md"
+                "file": "Overview.md"
               }
             }
           }
@@ -164,6 +164,7 @@
   },
   "active": "886e2529c71f2b17",
   "lastOpenFiles": [
+    "Account details.md",
     "Overview.md",
     "webhook.md",
     "Pasted image 20240603155513.png",
@@ -173,7 +174,6 @@
     "Pasted image 20240531121311.png",
     "test.md",
     "Untitled.md",
-    "Installation of the tools.md",
-    "Account details.md"
+    "Installation of the tools.md"
   ]
 }
