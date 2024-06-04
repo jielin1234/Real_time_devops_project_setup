@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "ac487d088657d372",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7633f9e0bd61efb",
+        "type": "tabs",
+        "dimension": 74.35897435897436,
+        "children": [
+          {
+            "id": "886e2529c71f2b17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c85f58e2943cfeac",
+        "type": "tabs",
+        "dimension": 25.64102564102564,
+        "children": [
+          {
+            "id": "ed18dcc5ce8bc065",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d1cd75a2a68be19",
+    "type": "split",
+    "children": [
+      {
+        "id": "89ee5a339f6801f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd441e29a937ad75",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b3094a7307296472",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "724b4b621fcf2c2c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "46be0a5973c5914a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b11da810e193c27c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2bfbd80591090b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "364df6c7865ac927",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7c674853553f1d8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02393564432089aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Overview.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "886e2529c71f2b17",
+  "lastOpenFiles": [
+    "Account details.md",
+    "Installation of the tools.md",
+    "Overview.md",
+    "WeChatWorkScreenshot_c55331e8-7cd6-4e20-9ae2-b1d0ce6465e5.png",
+    "WeChatWorkScreenshot_679e5e37-887d-4822-a0b4-36ce27cd63c6.png",
+    "set up ssh connection.md",
+    "webhook.md",
+    "Pasted image 20240603155513.png",
+    "WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa 2.png",
+    "WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa 1.png",
+    "WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa.png",
+    "Pasted image 20240531121311.png",
+    "test.md",
+    "Untitled.md"
+  ]
+}
