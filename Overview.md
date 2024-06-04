@@ -40,4 +40,4 @@ Process:
 
 4.Build & tagging docker images
 ![](WeChatWorkScreenshot_c55331e8-7cd6-4e20-9ae2-b1d0ce6465e5.png)
-Ansible will build the image based on the docker file and will tag the images along to maintain the version.
+Ansible will build the image based on the docker file and will tag the images along for version maintaining.
