@@ -6,4 +6,10 @@ Method 2: Manual Copying via Existing Access
 		mkdir -p ~/.ssh
 		echo "your-public-key-content" >> ~/.ssh/authorized_keys
 		chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
+		chmod 600 ~/.ssh/authorized_keys
+
+Verify:
+After copying the public key, try to SSH into the target server again from your Jenkins server.
+
+
+

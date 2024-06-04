@@ -35,4 +35,6 @@ Process:
 ![](WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa%202.png)
 
 - To [[set up ssh connection]] between the jenkins and ansible server.
-- 
+- Configure the jenkins pipeline to ssh 
+![](WeChatWorkScreenshot_679e5e37-887d-4822-a0b4-36ce27cd63c6.png)
+
