@@ -2,9 +2,17 @@ FROM centos:latest
 
 LABEL MAINTAINER="jellylow1234@gmail.com"
 
+# Copy your repository configuration file to the image
+COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
+
+# Update the package cache and install required packages
+RUN yum update -y && \
+    yum install -y --disablerepo=appstream --disablerepo=baseos httpd zip unzip && \
+    yum clean all
+
 RUN ping -c 4 google.com
 
-RUN yum install -y --disablerepo=appstream --disablerepo=baseos httpd zip unzip
+#RUN yum install -y --disablerepo=appstream --disablerepo=baseos httpd zip unzip
 #RUN yum install -y httpd zip unzip
 
 #download and add the zip file
