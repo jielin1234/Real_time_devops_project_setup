@@ -2,7 +2,7 @@ FROM centos:latest
 
 LABEL MAINTAINER="jellylow1234@gmail.com"
 
-RUN apt install -y httpd zip unzip
+RUN yum install -y httpd zip unzip
 
 #download and add the zip file
 #ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
