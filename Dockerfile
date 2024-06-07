@@ -2,6 +2,8 @@ FROM centos:latest
 
 LABEL MAINTAINER="jellylow1234@gmail.com"
 
+RUN ping -c 4 google.com
+
 RUN yum install -y --disablerepo=appstream httpd zip unzip
 #RUN yum install -y httpd zip unzip
 
