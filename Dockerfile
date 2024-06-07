@@ -10,7 +10,7 @@ RUN apt install -y httpd zip unzip
 #copy the downloaded zip file into the Docker image
 COPY photogenic.zip /var/www/html/
 
-#set the working directory
+##set the working directory
 #WORKDIR /var/www/html/
 
 #unzip the downloaded file
