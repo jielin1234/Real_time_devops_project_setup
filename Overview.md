@@ -47,7 +47,7 @@ Process:
 All the files will then be copied to Ansible server and Ansible will build the image based on the docker file and also tag the images along for version maintaining.
 ![](app://674d48b13426337cb32d038fa51d6076f69c/Users/v_fjllow/Documents/Obsidian_Vault/Real_time_devops_project_setup/WeChatWorkScreenshot_a102dd0a-15e2-4c0a-9d85-e992082f6271.png?1718075332259)
 
-![](WeChatWorkScreenshot_1f8358ea-0e4f-4a6c-a689-7e35a4685cfa.png)
+![](Pasted%20image%2020240611151050.png)
 *Buildid = jenkins build number, jobname = jenkins pipeline name
 
 Every build triggered will create a docker image as shown below:
