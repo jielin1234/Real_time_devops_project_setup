@@ -53,3 +53,5 @@ All the files will then be copied to Ansible server and Ansible will build the i
 Every build triggered will create a docker image as shown below:
 ![](WeChatWorkScreenshot_17774806-4b73-420a-9df3-02470ce9beb9.png)
 
+5.Pushing docker images to Dockerhub 
+![](WeChatWorkScreenshot_211610db-48c2-40d4-b4af-5988ce39927c.png)
