@@ -59,3 +59,4 @@ Every build triggered will create a docker image as shown below:
 - note: might have to login dockerhub in the ansible server first if want to push image into docker hub
 ![](Pasted%20image%2020240611151127.png)
 ![](WeChatWorkScreenshot_493b6cc4-ed49-4a1b-b870-294d16d36535.png)
+![](WeChatWorkScreenshot_8315cff0-129f-4586-9cf4-6861b851b1c3.png)
