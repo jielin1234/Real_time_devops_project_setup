@@ -50,5 +50,6 @@ All the files will then be copied to Ansible server and Ansible will build the i
 ![](WeChatWorkScreenshot_1f8358ea-0e4f-4a6c-a689-7e35a4685cfa.png)
 *Buildid = jenkins build number, jobname = jenkins pipeline name
 
-Every build triggered will create a docker image as shown below
+Every build triggered will create a docker image as shown below:
 ![](WeChatWorkScreenshot_17774806-4b73-420a-9df3-02470ce9beb9.png)
+
