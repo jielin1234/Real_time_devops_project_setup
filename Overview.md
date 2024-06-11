@@ -31,6 +31,9 @@ Process:
 	- Can find the Docker file in Jenkins server /var/lib/jenkins/workspace/ (pipeline name)
 - Configure [[webhook]] so that it will auto build the pipeline when there is git commit 
 
+![](WeChatWorkScreenshot_8e1f5429-b73d-4f8d-a710-5ad4cd23262a.png)
+(all the files in local will be auto send to Jenkins server once webhook is configured)
+
 3.Sending the Docker file to Ansible (using ssh agent) 
 ![](WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa%202.png)
 
