@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bfd0d845b3177715",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c85f58e2943cfeac",
@@ -162,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "886e2529c71f2b17",
+  "active": "bfd0d845b3177715",
   "lastOpenFiles": [
     "Account details.md",
     "Overview.md",
