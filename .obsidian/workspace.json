@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Account details.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Overview.md",
+                "file": "Account details.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Overview.md",
+                "file": "Account details.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overview.md"
+                "file": "Account details.md"
               }
             }
           }
@@ -164,9 +164,9 @@
   },
   "active": "886e2529c71f2b17",
   "lastOpenFiles": [
+    "Overview.md",
     "WeChatWorkScreenshot_17774806-4b73-420a-9df3-02470ce9beb9.png",
     "Docker file.md",
-    "Overview.md",
     "webhook.md",
     "Account details.md",
     "WeChatWorkScreenshot_58a3d911-311d-4e0b-afc8-d123ccdb8be5.png",
@@ -181,7 +181,6 @@
     "Installation of the tools.md",
     "WeChatWorkScreenshot_c55331e8-7cd6-4e20-9ae2-b1d0ce6465e5.png",
     "WeChatWorkScreenshot_679e5e37-887d-4822-a0b4-36ce27cd63c6.png",
-    "Pasted image 20240603155513.png",
     "test.md",
     "Untitled.md"
   ]
