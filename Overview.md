@@ -55,3 +55,7 @@ Every build triggered will create a docker image as shown below:
 
 5.Pushing docker images to Dockerhub 
 ![](WeChatWorkScreenshot_211610db-48c2-40d4-b4af-5988ce39927c.png)
+- Use withcredentials to store the dockerhub password
+- note: might have to login dockerhub in the ansible server first if want to push image into docker hub
+![](Pasted%20image%2020240611151127.png)
+![](WeChatWorkScreenshot_493b6cc4-ed49-4a1b-b870-294d16d36535.png)
