@@ -41,3 +41,6 @@ Process:
 4.Build & tagging docker images
 ![](WeChatWorkScreenshot_c55331e8-7cd6-4e20-9ae2-b1d0ce6465e5.png)
 Ansible will build the image based on the docker file and will tag the images along for version maintaining.
+![](WeChatWorkScreenshot_1f8358ea-0e4f-4a6c-a689-7e35a4685cfa.png)
+*Buildid = jenkins build number, jobname = jenkins pipeline name
+
