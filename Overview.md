@@ -24,17 +24,16 @@ Developer write a docker file, push it to a github repository. The github will t
 Process:
 1.[[Installation of the tools]]
 
-2.Write docker file, Git commit and trigger jenkins job using webhook
+2.Write Docker file, Git commit and trigger jenkins job using webhook
 ![[Pasted image 20240531121311.png]]
-- write the Docker file and commit to Github
-- Download https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip to local computer)
+- Write the [[Docker file]] and commit to Github
 - Jenkins to pick up the code and start building it
 	- Can find the Docker file in Jenkins server /var/lib/jenkins/workspace/ (pipeline name)
 	![](WeChatWorkScreenshot_86b4cd1c-ae59-4a79-92e4-8faefed2a5cb.png)
 - Configure [[webhook]] so that it will auto build the pipeline when there is git commit 
 
-
-![](WeChatWorkScreenshot_8e1f5429-b73d-4f8d-a710-5ad4cd23262a.png)
+2.1. Download https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip to local computer (highlighted)
+![](WeChatWorkScreenshot_58a3d911-311d-4e0b-afc8-d123ccdb8be5.png)
 (all the files in local will be auto send to Jenkins server once [[webhook]] is configured)
 
 3.Sending the Docker file to Ansible (using ssh agent) 
