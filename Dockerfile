@@ -2,27 +2,22 @@ FROM centos:latest
 
 LABEL MAINTAINER="jellylow1234@gmail.com"
 
-RUN apt install -y httpd zip unzip
+RUN cd /etc/yum.repos.d/
+RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+RUN yum -y install java
+CMD /bin/bash
+RUN yum install -y httpd
+RUN yum install -y zip
+RUN yum install -y unzip
 
-#download and add the zip file
-#ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
+##ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
 
-#copy the downloaded zip file into the Docker image
+#Add and extract the zip file
 COPY photogenic.zip /var/www/html/
-
-##set the working directory
-#WORKDIR /var/www/html/
-
-#unzip the downloaded file
-RUN unzip /var/www/html/photogenic.zip -d /var/www/html/
-
-#Move the contents of the photogenic directory to the current directory
-#RUN cp -rvf photogenic/* .
-
-#Clean up by removing the unnecessary directories and zip file
-RUN rm -rf /var/www/html/photogenic.zip
-
-#Set the command to start Apache in the foreground
+WORKDIR /var/www/html/
+RUN sh -c 'unzip -q "*.zip"'
+RUN cp -rvf photogenic/* .
+RUN rm -rf photogenic photogenic.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-
-EXPOSE 80 22
+EXPOSE 80
