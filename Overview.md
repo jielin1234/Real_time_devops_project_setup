@@ -26,17 +26,13 @@ Process:
 
 2.Write Docker file, Git commit and trigger jenkins job using webhook
 ![[Pasted image 20240531121311.png]]
+2.1. Download https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip to local computer (highlighted below)
+
 - Write the [[Docker file]] and commit to Github
-- Jenkins to pick up the code and start building it
-	- Can find the [[Docker file]] in Jenkins server /var/lib/jenkins/workspace/ (pipeline name)
-	![](WeChatWorkScreenshot_86b4cd1c-ae59-4a79-92e4-8faefed2a5cb.png)
-- 
-2.1. Download https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip to local computer (highlighted)
+![](app://674d48b13426337cb32d038fa51d6076f69c/Users/v_fjllow/Documents/Obsidian_Vault/Real_time_devops_project_setup/WeChatWorkScreenshot_58a3d911-311d-4e0b-afc8-d123ccdb8be5.png?1718075641371)
 
-- Configure [[webhook]] so that it will auto build the pipeline when there is git commit 
-![](WeChatWorkScreenshot_58a3d911-311d-4e0b-afc8-d123ccdb8be5.png)
-(all the files in local will be auto send to Jenkins server once [[webhook]] is configured)
-
+- Jenkins to pick up the code and start building it	![](WeChatWorkScreenshot_86b4cd1c-ae59-4a79-92e4-8faefed2a5cb.png)
+- Configure [[webhook]] so that it will auto build 
 3.Sending the Docker file to Ansible (using ssh agent) 
 ![](WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa%202.png)
 - [[set up ssh connection]] between the jenkins and ansible server.
