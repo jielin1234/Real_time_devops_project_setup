@@ -30,20 +30,22 @@ Process:
 - Jenkins to pick up the code and start building it
 	- Can find the Docker file in Jenkins server /var/lib/jenkins/workspace/ (pipeline name)
 - Configure [[webhook]] so that it will auto build the pipeline when there is git commit 
+![](WeChatWorkScreenshot_86b4cd1c-ae59-4a79-92e4-8faefed2a5cb.png)
 
 ![](WeChatWorkScreenshot_8e1f5429-b73d-4f8d-a710-5ad4cd23262a.png)
-(all the files in local will be auto send to Jenkins server once webhook is configured)
+(all the files in local will be auto send to Jenkins server once [[webhook]] is configured)
 
 3.Sending the Docker file to Ansible (using ssh agent) 
 ![](WeChatWorkScreenshot_f0cb4f12-0b47-4ddf-b9fc-404eda0bc2aa%202.png)
 
-- To [[set up ssh connection]] between the jenkins and ansible server.
+- [[set up ssh connection]] between the jenkins and ansible server.
 - Configure the jenkins pipeline to ssh 
 ![](WeChatWorkScreenshot_679e5e37-887d-4822-a0b4-36ce27cd63c6.png)
 
 4.Build & tagging docker images
 ![](WeChatWorkScreenshot_c55331e8-7cd6-4e20-9ae2-b1d0ce6465e5.png)
 Ansible will build the image based on the docker file and will tag the images along for version maintaining.
+
 ![](WeChatWorkScreenshot_1f8358ea-0e4f-4a6c-a689-7e35a4685cfa.png)
 *Buildid = jenkins build number, jobname = jenkins pipeline name
 
