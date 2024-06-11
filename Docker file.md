@@ -8,10 +8,6 @@ The Dockerfile sets up a CentOS-based Docker image that includes a Java runtime 
     - `LABEL MAINTAINER="jellylow1234@gmail.com"`: Adds a label with the maintainer's email.
 2. **Update Repository Configuration and Install Necessary Packages:**
     
-    Dockerfile
-    
-    Copy code
-    
     `RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* && \     sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-* && \     yum clean all && \     yum makecache && \     yum -y install java httpd zip unzip && \     yum clean all`
     
     - Updates the repository configuration to use `vault.centos.org` instead of the default mirrors.
@@ -19,10 +15,6 @@ The Dockerfile sets up a CentOS-based Docker image that includes a Java runtime 
     - Installs Java (`java`), Apache HTTP server (`httpd`), and tools for handling ZIP files (`zip` and `unzip`).
     - Cleans the yum cache again to reduce the final image size.
 3. **Add and Extract the ZIP File:**
-    
-    Dockerfile
-    
-    Copy code
     
     `COPY photogenic.zip /var/www/html/ WORKDIR /var/www/html/ RUN unzip photogenic.zip && \     cp -rvf photogenic/* . && \     rm -rf photogenic photogenic.zip`
     
@@ -33,16 +25,11 @@ The Dockerfile sets up a CentOS-based Docker image that includes a Java runtime 
         - Copies the contents of the `photogenic` directory to `/var/www/html/`.
         - Removes the unneeded `photogenic` directory and the `photogenic.zip` file to clean up.
 4. **Expose Port and Start the Apache Server:**
-    
-    Dockerfile
-    
-    Copy code
-    
+
     `EXPOSE 80 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]`
     
     - `EXPOSE 80`: Informs Docker that the container listens on port 80, which is the standard port for HTTP.
     - `CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]`: Runs the Apache HTTP server in the foreground, keeping the container running and serving web pages.
-
 ### Summary
 
 This Dockerfile creates a Docker image that:
